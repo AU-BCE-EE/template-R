@@ -30,23 +30,18 @@ Lastly, a README.md file should be included for any other notes for collaborator
 The file you are reading can be used as a template.
 
 Note that all file paths are relative, so this repo is completely portable. 
-I recommend sticking with this approach, and further, not setting a working directory by R code.
+We recommend sticking with this approach, and further, not setting a working directory by R code.
 
 This template is not linked to any particular operating system, script editor, or development environment.
-I use [Neovim](https://neovim.io/) with the incredible [Nvim-R](https://github.com/jalvesaq/Nvim-R) plugin on Ubuntu Linux, but RStudio or even a separate text editor and R console could be used.
-
-# Feedback
-Even as I worked on a draft of this repo, I see it is being downloaded, so clearly there is some interest in this type of a template.
-If you find it useful, let me know by following or "starring" the repo.
-Feel free to use the "Issues" page for requests.
+Most of us use RStudio, some use [Neovim](https://neovim.io/) with the incredible [Nvim-R](https://github.com/jalvesaq/Nvim-R) plugin, but even a separate text editor and R console could be used.
 
 # Justification
-What I have presented here is just one alternative for organizing data analysis projects.
-It is a structure that I have converged on over several years of projects. 
+What we have presented here is just one alternative for organizing data analysis projects.
+It is a structure that we have converged on over several years of projects. 
 Some original inspiration came from [this Stackoverflow post](https://stackoverflow.com/questions/1429907/workflow-for-statistical-analysis-and-report-writing) and [this blog entry](https://robjhyndman.com/hyndsight/workflow-in-r/).
 Some users may find the use of so many separate scripts confusing and unnecessary.
 Why not use one big script, or even a single RMarkdown file?
-I find the more modular approach used in this repo better for the following:
+We find the more modular approach used in this repo better for the following:
 
 * Getting a workflow overview: just check `main.R`
 * Isolating code problems: it is easy to find scripts by name and see which ones throw errors
@@ -62,9 +57,3 @@ There are other repos on GitHub with a similar objective.
 * <https://github.com/Pakillo/template>
 * <https://github.com/bdcaf/cookiecutter-r-data-analysis>
 * <https://github.com/klmr/example-r-analysis>
-
-Here is some of my related work.
-* Introduction to data analysis: <https://github.com/sashahafner/CCPDA>
-* Introduction to R: <https://www.researchgate.net/publication/325170649_An_Introduction_to_R_for_Beginners>
-* Some useful functions: <https://github.com/sashahafner/jumbled>
-* More at [www.hafnerconsulting.com](https://sites.google.com/hafnerconsulting.com/hafnerconsulting)
